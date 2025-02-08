@@ -1,4 +1,4 @@
-# My Library (ကျွန်ုပ်၏စာကြည့်တိုက်) - A Simple Laravel CRUD Application
+# My Library  - A Simple Laravel CRUD Application
 
 This project demonstrates a basic CRUD (Create, Read, Update, Delete) application built with Laravel. It's designed as a simple library management system to manage books and is intended for educational purposes.
 
