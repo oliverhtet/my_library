@@ -1,4 +1,4 @@
-# My Library (ကျွန်ုပ်၏စာကြည့်တိုက်) - A Simple Laravel CRUD Application
+# My Library  - A Simple Laravel CRUD Application
 
 This project demonstrates a basic CRUD (Create, Read, Update, Delete) application built with Laravel. It's designed as a simple library management system to manage books and is intended for educational purposes.
 
@@ -18,7 +18,29 @@ This project demonstrates a basic CRUD (Create, Read, Update, Delete) applicatio
 1. **Create a new Laravel project:**
    ```bash
    composer create-project --prefer-dist laravel/laravel my_library
-   
-   php artisan make:model Book -m
 
-   php artisan migrate
+
+ Project Setup 
+
+Create a new Laravel project: composer create-project --prefer-dist laravel/laravel my_library
+Navigate to the project directory: cd my_library
+Configure your database connection in the .env file.
+Database Setup 
+
+Create the database in your database management system (e.g., phpMyAdmin, MySQL Workbench).
+Configure database credentials in .env file.
+Create the Book model and migration: php artisan make:model Book -m
+Define the table structure in the migration file (as provided in the previous response).
+Run the migration: php artisan migrate
+Creating the Controller 
+
+Create the BookController: php artisan make:controller BookController
+Implement the index, create, and store methods (as provided in the previous response). We will add edit, update, and destroy later.
+Creating the Views
+
+Create the index.blade.php and create.blade.php files in resources/views/books (as provided in the previous response).
+Defining the Routes 
+
+Add the resource route to routes/web.php: Route::resource('books', BookController::class);
+   
+   
