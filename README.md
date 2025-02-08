@@ -18,3 +18,7 @@ This project demonstrates a basic CRUD (Create, Read, Update, Delete) applicatio
 1. **Create a new Laravel project:**
    ```bash
    composer create-project --prefer-dist laravel/laravel my_library
+   
+   php artisan make:model Book -m
+
+   php artisan migrate
